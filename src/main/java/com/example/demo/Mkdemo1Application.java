@@ -25,7 +25,7 @@ public class Mkdemo1Application {
 
 	@GetMapping(value = "/message", produces = {MediaType.TEXT_PLAIN_VALUE})
 	public String getMessage() {
-		return "jakasracka";
+		return "happy birthday to you!";
 	}
 	
 	@PostMapping( value = "/number", produces = {MediaType.TEXT_PLAIN_VALUE})
